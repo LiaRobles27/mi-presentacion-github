@@ -1,0 +1,25 @@
+baseURL = 'https://LiaRobles27.github.io/mi-presentacion-github/'
+languageCode = 'es-es'
+title = 'README.md - Mi Presentación'
+theme = 'terminal'
+
+[params]
+  author = "Lia"
+  description = "Presentación personal estilo README"
+  
+  # Carga de CSS personalizado en el tema Terminal
+  customCSS = ["css/custom.css"]
+
+  contentTypeName = "posts"
+  showSubMenu = false
+
+[params.home]
+  showHomeContent = true
+
+# OBLIGATORIO: Permite renderizar HTML nativo en los archivos Markdown
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    lineNos = true

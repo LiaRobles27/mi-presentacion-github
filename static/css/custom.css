@@ -1,0 +1,45 @@
+:/* Variables del tema: Fondo muy oscuro y rosa Neón */
+:root {
+  --background: #0d0d11;
+  --color: #ff79c6;
+  --accent: #ff2a85;
+}
+
+body, p, li, h1, h2, h3, h4, h5, h6 {
+  color: var(--color) !important;
+}
+
+a {
+  color: var(--accent) !important;
+}
+
+hr, table, td, th {
+  border-color: var(--accent) !important;
+}
+
+pre {
+  border: 1px solid var(--accent) !important;
+}
+
+/* Layout para colocar la imagen a la izquierda y texto a la derecha */
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.profile-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 10px rgba(255, 42, 133, 0.4);
+}
+
+.profile-bio {
+  flex: 1;
+  min-width: 250px;
+}

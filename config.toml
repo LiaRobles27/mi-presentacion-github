@@ -1,6 +1,6 @@
 baseURL = 'https://LiaRobles27.github.io/mi-presentacion-github/'
 languageCode = 'es-es'
-title = '- Mi Presentación'
+title = 'Readme.md- Mi Presentación'
 theme = 'terminal'
 
 [params]

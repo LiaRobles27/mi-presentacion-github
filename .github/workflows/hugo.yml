@@ -24,11 +24,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: recursive
           fetch-depth: 0
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
@@ -51,20 +51,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-    ```
-
-Guarda y cierra (`Ctrl+O`, `Enter`, `Ctrl+X`).
-
----
-
-#### Paso C: Subir el código a GitHub
-
-Ejecuta estos comandos en tu terminal dentro de la carpeta de tu proyecto:
-
-```bash
-git init
-git add .
-git commit -m "Mi web de presentación en Hugo"
-git branch -M main
-git remote add origin https://github.com/LiaRobles27/mi-presentacion-github.git
-git push -u origin main

@@ -31,8 +31,7 @@ draft: false
     flex-shrink: 0;
   }
 
-  /* Estilo para el botón de GitHub */
-  .github-link {
+  .profile-info a {
     display: inline-block;
     margin-top: 10px;
     padding: 6px 14px;
@@ -43,38 +42,38 @@ draft: false
     font-weight: bold;
     transition: all 0.2s ease;
   }
-  .github-link:hover {
+  .profile-info a:hover {
     background-color: #ff2a85;
     color: #0d0d11 !important;
   }
 </style>
 
 <div class="profile-container">
-  <img src="/yo.png" alt="Mi Foto" class="profile-avatar">
-  <div>
-    <h1 style="margin: 0;">¡Hola, soy Lia!</h1>
-    <p style="margin: 5px 0;"><strong>Artista y estudiante de ASIR</strong></p>
-    <p style="margin: 0;">Apasionada por los sistemas Unix, el software libre y la estética Cyberpunk.</p>
-    
-    [Mi Perfil de GitHub](https://github.com/LiaRobles27)
-  </div>
+<img src="/yo.png" alt="Mi Foto" class="profile-avatar">
+<div class="profile-info">
+<h1 style="margin: 0;">Hola, soy Lia</h1>
+<p style="margin: 5px 0;"><strong>Artista y estudiante de ASIR</strong></p>
+<p style="margin: 0;">Apasionada por los sistemas Unix, el software libre y la estetica Cyberpunk.</p>
+<br>
+<a href="https://github.com/LiaRobles27" target="_blank">Mi Perfil de GitHub</a>
+</div>
 </div>
 
 ---
 
-##  Sobre Mí
+## Sobre Mi
 
 - **Nombre:** Lia
--  **Rol:** Artista y estudiante de ASIR
--  **Ubicación:** Pinto, Madrid, España
--  **Intereses:** Sistemas Unix, software libre y diseño
--  *"¡Hola! Bienvenido a mi sitio personal estilo README."*
+- **Rol:** Artista y estudiante de ASIR
+- **Ubicacion:** España
+- **Intereses:** Sistemas Unix, software libre y diseño
+- *"Hola. Bienvenido a mi sitio personal estilo README."*
 
 ---
 
-## Habilidades Técnicas
+## Habilidades Tecnicas
 
-| Categoría | Tecnologías |
+| Categoria | Tecnologias |
 | :--- | :--- |
 | **Sistemas** | Linux (Ubuntu/Debian), Bash, VirtualBox |
-| **Desarrollo & Web** | HTML5, CSS3, Git, Markdown |
+| **Desarrollo & Web** | HTML5, CSS3, Hugo, Git, Markdown |
